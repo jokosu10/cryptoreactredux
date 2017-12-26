@@ -1,24 +1,19 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-import { Header } from './src/components';
+import { View } from 'react-native';
+import { Provider } from 'react-redux';
+
+import Store from './src/Store';
+import { Header, CryptoContainer } from './src/components';
 
 export default class App extends Component {
   render() {
     return (
-      <View>
-        <Header />
-      </View>
+      <Provider store={Store}>
+        <View>
+          <Header />
+          <CryptoContainer />
+        </View>
+      </Provider>
     );
   }
 }
