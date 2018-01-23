@@ -1,4 +1,8 @@
 # cryptoreactredux
-Build cryptocurrency apps using react-native and redux
+Build cryptocurrency apps using react-native and redux.
 
-and still on progress :)
+Based on tutorial here. 
+https://medium.com/react-native-training/bitcoin-ripple-ethereum-price-checker-with-react-native-redux-e9d076037092
+
+
+This is show this apps :D
